@@ -4,7 +4,7 @@
     <id>Prism.Xamarin.Forms.Templates</id>
     <version>$version$</version>
     <authors>Brian Lagunas,Dan Siegel</authors>
-    <description>Official Prism Library Templates for Xamarin.Forms apps. This includes a basic Blank Prism.Forms template as well a Module Template for builind modular apps.</description>
+    <description>Official Prism Library Templates for Xamarin.Forms apps. This includes both a basic Blank and a Full Prism.Forms template as well a Module Template for builing modular apps.</description>
     <language>en-US</language>
     <projectUrl>https://github.com/PrismLibrary/Prism</projectUrl>
     <license type="file">LICENSE.txt</license>
@@ -19,6 +19,7 @@
     <file src="../LICENSE.txt" target="" />
     <file src="../prism-logo.png" target="images\" />
     <file src="BlankApp/**" exclude="**\.vs\**\*;**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store" target="content/BlankApp" />
+    <file src="FullApp/**" exclude="**\.vs\**\*;**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store" target="content" />
     <file src="Module.XF/**" exclude="**\.vs\**\*;**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store" target="content/Module.XF" />
   </files>
 </package>

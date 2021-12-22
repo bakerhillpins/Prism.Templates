@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:core="clr-namespace:FullApp.Core;assembly=FullApp.Core"
+             x:Class="FullApp.Views.MainPage"
+             Title="{Binding Title}">
+
+    <Grid>
+        <ContentView prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+    </Grid>
+
+</ContentPage>
