@@ -12,7 +12,7 @@ namespace FullApp.Modules.ModuleName
 
         public ModuleNameModule( IRegionManager regionManager )
         {
-            this._regionManager = regionManager;
+            _regionManager = regionManager;
         }
 
 #region Implementation of IModule
@@ -20,7 +20,7 @@ namespace FullApp.Modules.ModuleName
         /// <inheritdoc />
         public void OnInitialized( IContainerProvider containerProvider )
         {
-            this._regionManager.RequestNavigate( RegionNames.ContentRegion, "ViewA" );
+            _regionManager.RequestNavigate( RegionNames.ContentRegion, "ViewA" );
         }
 
         /// <inheritdoc />

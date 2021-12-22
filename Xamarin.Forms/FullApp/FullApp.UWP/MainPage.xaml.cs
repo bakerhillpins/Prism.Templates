@@ -21,7 +21,7 @@ namespace FullApp.UWP
     {
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
 
             LoadApplication(new FullApp.App(new UwpInitializer()));
         }
